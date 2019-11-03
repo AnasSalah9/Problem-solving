@@ -48,5 +48,6 @@ int main(){
 			else printf("%lld/%lld\n", a, b);
 	}
 
+  
 	return 0;
 }
