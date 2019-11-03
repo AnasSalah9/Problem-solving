@@ -47,7 +47,6 @@ int main(){
 			else if(a == b) printf("1\n");
 			else printf("%lld/%lld\n", a, b);
 	}
-
-  
+	
 	return 0;
 }
