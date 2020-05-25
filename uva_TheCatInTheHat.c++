@@ -51,7 +51,7 @@ int main(){
 				for(l = 1 ; l < 64 ; ++l){
 				n = binarySearch(pow(10, 18/(double)l));
 				if(fpow(n, l) == m && fpow(n+1, l) == h) break;
-			}
+				}
 		}
 		printf("%lld %lld\n", notWorking(), heightsSum());
 	}
